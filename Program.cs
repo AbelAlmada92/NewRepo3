@@ -48,6 +48,11 @@ namespace PracticaClases
         {
             Console.WriteLine("Atiende al paciente enfermo.");
         }
+
+        public void brindaDiagnostico()
+        {
+            Console.WriteLine("El doctor da su diagnostico al paciente.");
+        }
     }
     public class Paciente()
     {
@@ -61,6 +66,11 @@ namespace PracticaClases
         public void informa()
         {
             Console.WriteLine("El paciente informa los sintomas al medico.");
+        }
+
+        public void seTrata()
+        {
+            Console.WriteLine("Realiza el tratamiento que el medico le da.");
         }
     }
 }
